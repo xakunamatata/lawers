@@ -1,0 +1,25 @@
+{
+  "name": "lawers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass sass/main.scss css/styles.css -w",
+    "devserver": "live-server --browser=firefox",
+    "start": "npm-run-all --parallel devserver watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xakunamatata/lawers.git"
+  },
+  "author": "xakunamatata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xakunamatata/lawers/issues"
+  },
+  "homepage": "https://github.com/xakunamatata/lawers#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "npm-run-all": "^4.1.5"
+  }
+}

@@ -1,0 +1,27 @@
+.circle-item{
+  width: 20%;
+  text-align: center;
+  margin: 1rem 0;
+  @media only screen and (max-width: 600px) {
+    width: 48%;
+  }
+  .circle{
+    display: inline-block;
+    position: relative;
+  }
+  .counter-number{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+    color: $white;
+    line-height:3rem;
+  }
+  .counter-name{
+    font-size: 1.2rem;
+    color: $white;
+    font-style: italic;
+
+  }
+}
